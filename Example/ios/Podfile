@@ -43,11 +43,20 @@ target 'Example' do
 
   use_frameworks!
 
-  pod 'SPPermissions', '5.2.6'
+  pod 'SPPermissions', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
 
-  pod 'SPPermissions/Camera'
-  pod 'SPPermissions/Location'
-  pod 'SPPermissions/Microphone'
+  pod 'SPPermissions/Camera', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Contacts', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Calendar', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/PhotoLibrary', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Notification', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Microphone', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Reminders', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/SpeechRecognizer', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Location', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Motion', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/MediaLibrary', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
+  pod 'SPPermissions/Bluetooth', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
 
 end
 
