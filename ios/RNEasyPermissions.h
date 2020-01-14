@@ -7,7 +7,7 @@
 
 #import "SPPermissions/SPPermissions-Swift.h"
 
-@interface RNEasyPermissions : NSObject <RCTBridgeModule>
+@interface RNEasyPermissions : NSObject <RCTBridgeModule, SPPermissionsDelegate>
 
 @end
   
