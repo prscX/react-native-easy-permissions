@@ -28,14 +28,14 @@ export default class App extends Component<{}> {
       <View style={styles.container}>
         <Button onPress={() => {
           RNEasyPermissions.Show({
-            // permissions: ['Camera', 'Contacts', 'Calendar', 'PhotoLibrary', 'Notification', 'Microphone', 'Reminders', 'SpeechRecognizer', 'Location', 'Motion', 'MediaLibrary', 'Bluetooth']
-            permissions: [
-              'android.permission-group.CALENDAR',
-              'android.permission-group.CAMERA',
-              'android.permission-group.LOCATION',
-              'android.permission.READ_SMS',
-              'android.permission.ACCESS_FINE_LOCATION'
-            ]
+            permissions: ['Camera', 'Contacts', 'Calendar', 'PhotoLibrary', 'Notification', 'Microphone', 'Reminders', 'SpeechRecognizer', 'Location', 'Motion', 'MediaLibrary', 'Bluetooth']
+            // permissions: [
+            //   'android.permission-group.CALENDAR',
+            //   'android.permission-group.CAMERA',
+            //   'android.permission-group.LOCATION',
+            //   'android.permission.READ_SMS',
+            //   'android.permission.ACCESS_FINE_LOCATION'
+            // ]
           });
         }} title={'Tap Here'} />
       </View>
