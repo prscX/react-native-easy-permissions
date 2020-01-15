@@ -1,28 +1,32 @@
 import React, { PureComponent } from "react";
-import { ViewPropTypes, NativeModules, Platform } from "react-native";
+import {
+  ViewPropTypes,
+  NativeModules,
+  Platform,
+  PermissionsAndroid
+} from "react-native";
 import PropTypes from "prop-types";
 
 const { RNEasyPermissions } = NativeModules;
 
 class EasyPermissions extends PureComponent {
-    static propTypes = {
-        ...ViewPropTypes,
-    };
+  static propTypes = {
+    ...ViewPropTypes
+  };
 
-    static defaultProps = {
-    };
+  static defaultProps = {};
 
-    static Show(props) {
-        RNEasyPermissions.Show(
-            props,
-            (...args) => {
-                props.onDone && props.onDone(...args);
-            },
-            (...args) => {
-                props.onCancel && props.onCancel(...args);
-            }
-        );
+  static Show(props) {
+    if (Platform.OS === "android") {
+      PermissionsAndroid.requestMultiple(props.permissions).then(granted => {
+        props.onDone && props.onDone(granted);
+      });
+    } else {
+      RNEasyPermissions.Show(props, (...args) => {
+        props.onDone && props.onDone(...args);
+      });
     }
+  }
 }
 
-export { EasyPermissions as RNEasyPermissions }
+export { EasyPermissions as RNEasyPermissions };
