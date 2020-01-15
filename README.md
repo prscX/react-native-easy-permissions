@@ -28,10 +28,6 @@ This library is a React Native bridge around native library providing Dialog for
 
 `$ npm install react-native-easy-permissions --save`
 
-## **RN61 >= RNAT V1 >**
-
-> RN60 above please use `react-native-easy-permissions` V1 and above
-
 - **iOS**
 
 > **iOS Prerequisite:** Please make sure `CocoaPods` is installed on your system
@@ -48,8 +44,8 @@ This library is a React Native bridge around native library providing Dialog for
   pod 'SPPermissions', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
 ```
 
-    - [Permissions Pods - follow](https://github.com/ivanvorobei/SPPermissions/#cocoapods)
-    - [Keys in Info.plist - follow](https://github.com/ivanvorobei/SPPermissions/#keys-in-infoplist)
+- [Permissions Pods - follow](https://github.com/ivanvorobei/SPPermissions/#cocoapods)
+- [Keys in Info.plist - follow](https://github.com/ivanvorobei/SPPermissions/#keys-in-infoplist)
 
 - **Android**
 
