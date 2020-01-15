@@ -14,9 +14,9 @@ If this project has helped you out, please support us with a star 🌟
 
 This library is a React Native bridge around native library providing Dialog for permissions.
 
-| **iOS: [ivanvorobei/SPPermissions](https://github.com/ivanvorobei/SPPermissions)**                                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Readme/Preview%20-%205.0.jpg" width="300" height="600" /> |
+| **iOS: [ivanvorobei/SPPermissions](https://github.com/ivanvorobei/SPPermissions)**                         |
+| ---------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Readme/Preview%20-%205.0.jpg" /> |
 
 | **Android: [Facebook/ReactNative.PermissionsAndroid](https://facebook.github.io/react-native/docs/permissionsandroid)** |
 | ----------------------------------------------------------------------------------------------------------------------- |
