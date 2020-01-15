@@ -44,12 +44,12 @@ This library is a React Native bridge around native library providing Dialog for
   pod 'SPPermissions', :git => 'https://github.com/prscX/SPPermissions', :branch => 'react-native'
 ```
 
-- [Permissions Pods - follow](https://github.com/ivanvorobei/SPPermissions/#cocoapods)
-- [Keys in Info.plist - follow](https://github.com/ivanvorobei/SPPermissions/#keys-in-infoplist)
+- [Permissions Pods - Follow](https://github.com/ivanvorobei/SPPermissions/#cocoapods)
+- [Keys in Info.plist - Follow](https://github.com/ivanvorobei/SPPermissions/#keys-in-infoplist)
 
 - **Android**
 
-> [Supported Permissions - follow](https://facebook.github.io/react-native/docs/permissionsandroid)
+> [Supported Permissions - Follow](https://facebook.github.io/react-native/docs/permissionsandroid)
 
 > No configuration is required
 
